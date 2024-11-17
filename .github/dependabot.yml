@@ -4,7 +4,7 @@ registries:
     type: "docker-registry"
     url: "https://registry.hub.docker.com/"
     username: "mark@jounce.io"
-    password: "w*cRN9*DqSAbWEy" markV12071995
+    password: "w*cRN9*DqSAbWEy"
   ghcr:
     type: "ghcr"
     url: "https://ghcr.io"
