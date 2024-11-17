@@ -6,7 +6,7 @@ registries:
     username: "mark@jounce.io"
     password: "w*cRN9*DqSAbWEy"
   ghcr:
-    type: "ghcr"
+    type: "docker-registry"
     url: "https://ghcr.io"
     username: "prhing@gmail.com"
     password: "markV12071995"
