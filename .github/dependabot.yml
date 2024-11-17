@@ -4,7 +4,12 @@ registries:
     type: "docker-registry"
     url: "https://registry.hub.docker.com/"
     username: "mark@jounce.io"
-    password: "w*cRN9*DqSAbWEy"
+    password: "w*cRN9*DqSAbWEy" markV12071995
+  ghcr:
+    type: "ghcr"
+    url: "https://ghcr.io"
+    username: "prhing@gmail.com"
+    password: "markV12071995"
 updates:
   - package-ecosystem: "docker"
     directory: "test"
@@ -14,3 +19,4 @@ updates:
       - dependency-type: "all"
     registries:
       - dockerhub
+      - ghcr
