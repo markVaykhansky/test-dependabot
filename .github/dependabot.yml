@@ -8,8 +8,8 @@ registries:
   ghcr:
     type: "docker-registry"
     url: "https://ghcr.io"
-#    username: "prhing@gmail.com"
-#    password: "markV12071995"
+    username: "prhing@gmail.com"
+    password: "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"
 updates:
   - package-ecosystem: "docker"
     directory: "test"
