@@ -3,8 +3,8 @@ registries:
   dockerhub:
     type: "docker-registry"
     url: "https://registry.hub.docker.com/"
-    username: "${{secrets.DOCKERHUB_USER}}" # Secrets for Docker Hub credentials (if needed)
-    password: "${{secrets.DOCKERHUB_PASSWORD}}"
+    username: "mark@jounce.io"
+    password: "w*cRN9*DqSAbWEy"
 updates:
   - package-ecosystem: "docker"
     directory: "test"
