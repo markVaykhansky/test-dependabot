@@ -1,0 +1,16 @@
+version: 2
+registries:
+  dockerhub:
+    type: "docker-registry"
+    url: "https://registry.hub.docker.com/"
+    username: "${{secrets.DOCKERHUB_USER}}" # Secrets for Docker Hub credentials (if needed)
+    password: "${{secrets.DOCKERHUB_PASSWORD}}"
+updates:
+  - package-ecosystem: "docker"
+    directory: "test"
+    schedule:
+      interval: "daily"
+    allow:
+      - dependency-type: "all"
+    registries:
+      - dockerhub
