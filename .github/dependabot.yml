@@ -19,4 +19,4 @@ updates:
       - dependency-type: "all"
     registries:
       - ghcr
-      #- dockerhub
+      - dockerhub
